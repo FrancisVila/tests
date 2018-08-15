@@ -1,0 +1,37 @@
+'.source.js':
+  'console.log':
+    'prefix': 'log'
+    'body': 'console.log(${1:"crash"});$2'
+
+'.text.html.basic':
+  'ttableTop':
+    'prefix': 'mmtable'
+    'body': '<table style="$1"><tr><td>$2</td></tr></table>'
+
+  'ttablsdfsdfsdf':
+    'prefix': 'mmtarrrrrr'
+    'body': '<table style="$1"><tr><td>$2</td><td>$3</td></tr></table>'
+
+  '2x2table':
+    'prefix': 'mmtable2x2'
+    'body': """
+      <table summary="$1">
+        <thead>
+            <tr>
+              <th>$2</th>
+              <th>$3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$4</td>
+              <td>$5</td>
+            </tr>
+            <tr>
+              <td>$6</td>
+              <td>$7</td>
+            </tr>
+          </tbody>
+        </table>
+        $8
+      """
